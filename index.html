@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digit Recognizer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <div id="left">
+      <h1>🖌️ Digit Recognizer</h1>
+      <canvas id="canvas" width="280" height="280"></canvas>
+      <div id="controls">
+        <button id="capture">Capture</button>
+        <button id="reset">Reset</button>
+      </div>
+    </div>
+    <div id="right">
+      <h2>Prediction</h2>
+      <div id="result">Waiting for prediction...</div>
+      <div id="result-image-container">
+        <img id="result-image" src="" alt="Predicted Digit" style="display: none;">
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
